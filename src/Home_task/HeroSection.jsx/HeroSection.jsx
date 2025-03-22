@@ -9,7 +9,6 @@ const HeroSection = () => {
             className="w-full max-w-[1440px] mx-auto h-[311px] relative bg-no-repeat bg-cover bg-center overflow-hidden"
             style={{ backgroundImage: `url(${BackgroundImage})` }}
         >
-            {/* First Overlay Image (Kept Same) */}
             <img
                 src={Image1}
                 alt="Overlay 1"
@@ -17,7 +16,6 @@ const HeroSection = () => {
                 style={{ width: "698.04px", height: "263px" }}
             />
 
-            {/* Second Overlay Image (Increased by 20% but kept inside bounds) */}
             <img
                 src={Image2}
                 alt="Overlay 2"

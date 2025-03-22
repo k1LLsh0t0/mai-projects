@@ -14,7 +14,7 @@ import PostProject from "./Home_task/PostProject";
 const App = () => {
   return (
     <Router>
-      <Navbar /> {/* ✅ Navbar remains fixed on all pages */}
+      <Navbar /> {/*  Navbar remains fixed on all pages */}
       <Routes>
         {/* Home Page Route */}
         <Route
@@ -35,7 +35,7 @@ const App = () => {
         <Route path="/all-projects" element={<AllProjects />} />
 
         {/* Post a Project Page Route */}
-        <Route path="/post-project" element={<PostProject />} /> {/* ✅ New Route */}
+        <Route path="/post-project" element={<PostProject />} />
       </Routes>
       <Footer />
     </Router>

@@ -4,7 +4,7 @@ import Logo from "../../assets/logo.png";
 import { FaShoppingCart } from "react-icons/fa";
 
 const Navbar = () => {
-  const navigate = useNavigate(); // ✅ Initialize navigation
+  const navigate = useNavigate(); // Initialize navigation
 
   return (
     <div className="w-full bg-white shadow-md">
@@ -21,9 +21,9 @@ const Navbar = () => {
 
           {/* Right - Buttons & Icons */}
           <div className="flex items-center gap-6">
-            {/* ✅ Updated "Post a Project" Button to Navigate */}
+            {/*  Updated "Post a Project" Button to Navigate */}
             <button
-              onClick={() => navigate("/post-project")} // ✅ Navigate to Post a Project
+              onClick={() => navigate("/post-project")} // Navigate to Post a Project
               className="bg-gray-100 text-black px-5 py-3 rounded-lg shadow-sm hover:bg-gray-200 transition"
             >
               Post a Project
@@ -50,7 +50,7 @@ const Navbar = () => {
                   className="hover:underline cursor-pointer"
                   onClick={() => {
                     if (item === "Home") navigate("/");
-                    if (item === "Project") navigate("/all-projects"); // ✅ Navigate to AllProjects
+                    if (item === "Project") navigate("/all-projects"); // Navigate to AllProjects
                   }}
                 >
                   {item}

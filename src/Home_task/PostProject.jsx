@@ -6,7 +6,7 @@ const PostProject = () => {
     const [selectedCategory, setSelectedCategory] = useState("");
     const [selectedSubCategory, setSelectedSubCategory] = useState("");
 
-    // ✅ Sample categories & subcategories
+    // Sample categories & subcategories
     const categories = {
         "Home Renovation": ["Kitchen Remodeling", "Bathroom Renovation", "Painting"],
         "Construction": ["Residential Building", "Commercial Construction", "Roofing"],
@@ -15,18 +15,18 @@ const PostProject = () => {
 
     return (
         <div className="max-w-[1440px] mx-auto px-8 py-8 flex items-start gap-10">
-            {/* ✅ Left Side - Image Section */}
+            {/* Left Side - Image Section */}
             <div className="w-[570px] h-[768px]">
                 <img
-                    src="/post.png"  // ✅ Image stored in public folder
+                    src="/post.png"  // Image stored in public folder
                     alt="Post a Project"
                     className="w-full h-full object-cover rounded-lg"
                 />
             </div>
 
-            {/* ✅ Right Side - Form Section */}
+            {/* Right Side - Form Section */}
             <div className="w-[572px] bg-gray-100 p-8 rounded-lg shadow-lg">
-                {/* ✅ Note Section */}
+                {/* Note Section */}
                 <div className="bg-blue-100 p-5 rounded-lg text-blue-900 mb-6">
                     <h3 className="font-semibold">Note</h3>
                     <ul className="text-sm text-gray-700 list-disc pl-5 mt-2">
@@ -35,12 +35,12 @@ const PostProject = () => {
                     </ul>
                 </div>
 
-                {/* ✅ Form Title */}
+                {/* Form Title */}
                 <h2 className="text-2xl font-semibold text-blue-900 text-center mb-6">
                     Post a Project
                 </h2>
 
-                {/* ✅ Form */}
+                {/* Form */}
                 <form className="flex flex-col gap-6">
                     {/* Category Selection (Fix Applied) */}
                     <div>
